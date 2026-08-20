@@ -25,7 +25,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/swiftlang/swift-syntax.git", "600.0.1" ..< "604.0.0"),
+        .package(url: "https://github.com/swiftlang/swift-syntax.git", "600.0.1" ..< "603.0.0"),
     ] + (simdAvailable ? [] : [
         .package(url: "https://github.com/keyvariable/kvSIMD.swift.git", from: "1.1.0"),
     ]),
